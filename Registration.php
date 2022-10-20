@@ -14,27 +14,43 @@
 		<div class="row">
 		<div class="col-md-6">
 			<h2>Registration form</h2>
-			<label for="IDN"><b>ID Number</b></label><br>
+			<label for="IDN">ID Number</label><br>
 			<input type="text" name="ID Number" required><br>
 
-			<label for="LName"><b>Last Name</b></label><br>
+			<label for="LName">Last Name</label><br>
 			<input type="text" name="Lname" required><br>
 
-			<label for="Fname"><b>First Name</b></label><br>
+			<label for="Fname">First Name</label><br>
 			<input type="text" name="Fname" required><br>
 
-			<label for="Mname"><b>Middle Name</b></label><br>
+			<label for="Mname">Middle Name</label><br>
 			<input type="text" name="Mname" required><br>
 
-  			<label for="bdaymonth"><b>Birthday:</b></label><br>
- 			<input type="month" id="bdaymonth" name="bdaymonth"><br>
-
- 			<h4> Parent Names</h4>
-			<label for="Nfather"><b>Name of Father</b></label><br>
+  			<label for="field1">Birthday:</label><br>
+ 			<input type="date" id="birthday" name="birthday"><br>
+            <label><span>
+            
+ 			<h4>Parent Names</h4>
+			<label for="Nfather">Name of Father</label><br>
 			<input type="text" name="Nfather" required><br>
 
-			<label for="Nmother"><b>Name of Mother</b></label><br>
-			<input type="text" name="Nmother" required><br>		<input type="submit" name="Submit" value="Submit"><br><br>
+			<label for="Nmother">Name of Mother</label><br>
+			<input type="text" name="Nmother" required><br>   
+            
+            <label for="course">Courses</label>
+            	<select name="language" id="course">
+                	<option value="col">College of law</option>
+                    <option value="con">College of Nursing</option>
+                    <option value="coa">College of Accountancy</option>
+                    <option value="citcs">College of Information Technology and Computer Science</option>
+                    <option value="cas">College of Arts and Sciences</option>
+                    <option value="chtm">College of Hospitality and Tourism Hotel Management</option>
+                    <option value="coc">College of Criminology</option>
+                    <option value="cea">College of Engineering and Architecture</option>
+                    <option value="cte">College of Teacher Education</option><br><br>
+                    <input type="submit" name="Submit" value="Submit"><br>
+			         
+                   
 			<a href="Login.php" style="color: black;">Click to Login</a>
 		</form>
 	</div>	

@@ -16,9 +16,9 @@
       <form action="Welcome.php" method="post">
         <div class="style" class="text">
           <label for="SIDN">Student ID Number</label><br>
-          <input type="text" id="SIDN" name="SIDN"  required><br>
+          <input type="text" id="SIDN" name="SIDN" maxlength="11" placeholder="00-0000-000"  required><br>
           <label for="pass">Password</label><br>
-          <input type="Password" id="pass" name="pass"  required><br><br>
+          <input type="Password" id="pass" name="pass" placeholder="Password"  required><br><br>
           <input type="submit" value="Login now"><br><br>
           <a href="Registration.php" style="color: black;">Register now!</a>
         </div>
